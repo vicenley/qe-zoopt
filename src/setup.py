@@ -12,12 +12,10 @@ setuptools.setup(
     author_email = "vlk@ornl.gov",
     description = "Zero Order Optimization Algorithm in Orquestra",
     packages = setuptools.find_packages(where = "python"),
-    package_dir = {"" : "python"}
+    package_dir = {"" : "python"},
     classifiers = (
         "programming language :: Python :: 3",
-        "Operative System :: OS Independent",
-
-    ),
+        "Operative System :: OS Independent"),
     install_requires=[
         'z-quantum-core',
         'zoopt'
