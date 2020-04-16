@@ -31,8 +31,10 @@ spec:
         raw:
           data: |
             import os
-            from optimizer.utils import save_optimization_results
-            from optimizer.optimize_pqc import optimize_variational_circuit
+            from zquantum.optimizers.utils import save_optimization_results
+            from zquantum.optimizers.variational_circuits import optimize_variational_circuit
+            #from optimizer.utils import save_optimization_results
+            #from optimizer.optimize_pqc import optimize_variational_circuit
             from zquantum.core.circuit import load_circuit_template, load_circuit_template_params, save_circuit_template_params, load_parameter_grid
             from qeopenfermion import load_qubit_operator
             from zquantum.core.utils import create_object
